@@ -1,0 +1,1088 @@
+
+body{
+    font-family: 'Manrope', sans-serif;
+    padding: 0em;
+    margin: 0em;
+}
+
+.top1{
+    padding: 0em;
+    margin: 0em;
+    background-color: ;
+}
+
+.top2{
+    max-height: 4em;
+    padding: 0em 0em;
+    margin: 0em 0em;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;    
+
+}
+
+.LOGO{
+    height: 80%;
+    padding: 0em 1.5em;
+    margin: ;
+}
+
+.LOGOWhite{
+    display: none;
+}
+
+.buttomSearch{
+    display: none;
+} 
+
+.perfiIcon{
+    display: none;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 0em;
+    padding-top: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+
+}
+
+.top-detail{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 3em;
+
+}
+
+.user-access{
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 0em;
+    padding: 0em 3em;
+    margin-bottom: 1em;
+
+
+}
+
+.icon{
+    padding: 0em 0em;
+    
+
+}
+
+.access-detail{
+    background-color: ;
+    padding-right: 1.5em;
+    padding-left: 0.2em;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    padding: 0.8em;
+    margin: 0em;  
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0em 8em;
+}
+
+.button{
+    background-color:black;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding: 0.8em;   
+}
+
+.button-search{
+    color: white;
+    background-color: #41EAD4;
+    border: none;
+    padding: 1em;
+    border-radius: 0.4em;
+}
+
+.grid-container{
+    background-color: brown;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 1em;
+
+}
+
+.newscard-cad1{
+    background-color: chocolate;
+    border-radius: 0.3em;
+    margin: 0em;
+    padding: 1em;
+
+}
+
+.newscard-cad2{
+    margin: 0em;
+    display: flex;
+}
+
+.etiqueta{
+    padding: 0.5em;
+    background-color: #FFD008;
+    border: none;
+    border-radius: 3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    
+}
+
+h2{
+    color: white;
+}
+
+h5{
+    font-size: 1em;
+    color: white;
+    font-weight: normal;
+}
+
+h4{
+    color: white;
+    font-size: 2.06em;
+    font-weight: normal;
+}
+
+h6{
+    font-size: 1.25em;
+    font-weight: medium;
+    color: white;
+}
+
+.parrafo{
+    font-size: 1.25em;
+    font-weight: normal;
+    color: white;
+}
+
+.fecha{
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    margin-right: 1em;
+}
+
+
+.fecha-vista{
+    color: white;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0.8em;
+}
+
+.eye{
+    padding-right: 0.2em;
+    height: 1em;
+
+}
+
+.color-bar{
+    height: auto;
+    width: 100%;
+    margin: 0%;
+}
+
+.btn-cta {
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0);
+    border-radius: 0.63em;
+    padding: 12px 16px;
+    border-width: 0.19em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+}
+
+.btn-outline {
+    box-sizing: border-box;
+    font-size: 0.8em;
+    color: rgb(255, 32, 110);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 0.19em;
+    border-style: solid;
+    border-color: rgb(255, 32, 110);
+    border-image: initial;
+    border-radius: 0.63em;
+    padding: 12px 16px;
+}
+
+/* INICIO CARRUSSEL*/
+
+
+#contentItemsCarrussel{
+    
+    height: 50%;
+    overflow: hidden;
+    padding-left: 7.31em;
+    padding-right: 6.31em;
+}
+
+.itemCarussel{
+    padding: 2em 0em;
+    height: 110%;
+    position: relative;
+}
+
+
+.tarjetaCarussel{
+    background-color: ;
+    height: 100%;
+}
+
+.flechasCarussel{
+    height: 10%;
+    position: absolute;
+    top: 0;
+    height: 75%;
+    width: 97.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25em;
+}
+
+#tarjetaCarussel-1{
+    background-color:;
+}
+
+#tarjetaCarussel-2{
+    background-color: ;
+}
+
+#tarjetaCarussel-3{
+    background-color: ;
+}
+
+.arrow{
+    height: 1.5em;
+   
+}
+
+.imagenCarrussel{
+    width: 100%;
+
+    
+}
+
+/* FIN CARRUSSEL*/
+
+/* INICIO SECCIÓN*/
+
+.gridContainerLeido{
+    background-color: white;
+    padding: 1em 0em;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    padding-left: 7.31em;
+    padding-right: 7.31em;
+    justify-content: center;
+
+}
+
+.gridContainerDescubre{
+    background-color: white;
+    padding: 1em 0em;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    padding-left: 7.31em;
+    padding-right: 7.31em;
+    justify-content: center;
+}
+
+.gridBlack{
+    background-color: black;
+    align-items: center;
+    max-height: 1em;
+
+}
+
+.gridText{
+    background-color: white;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+/* FIN SECCIÓN*/
+
+/* inicio footer */
+.footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: black;
+}    
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 100px;
+    background-color: black;
+    
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box_footer.logo img{
+    width: 90px;
+}
+
+.box_footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    color:#ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.box_footer a{
+    margin-top: 10px;
+    color:#ffffff;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+
+.box_footer a:hover{
+    color: #FFD008;
+    padding-left: 8px;
+}
+
+.box_footer a .fab{
+    font-size: 16px;
+}
+
+/* fin footer */
+
+/* PARTE NAN */
+.padding{
+    padding: 0.5em;
+}
+
+.gridcontainer2{
+    background: ;
+    padding-left: 7.31em;
+    padding-right: 7.31em;
+    padding-top: 0.8em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1.25em;
+}
+
+.newscard_B{
+    border-radius: 0em;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(https://images.unsplash.com/photo-1521216774850-01bc1c5fe0da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+}
+
+
+.newscard{
+    border-radius: 0em;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(Imagenes/Salario.jpg); 
+}
+   
+.main-story{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 18.81em;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: auto;
+    margin-right: 1em;
+    padding-left: 1em;    
+}
+
+.story{
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 0.63em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 0.81em;
+    margin-bottom: .5em;
+    transition: 400ms ease-in all;
+}
+
+.story:hover{
+    background: rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-8px) scale(1.02);
+}
+
+.newscolumn .story .photo img{
+    width: 100%; 
+    height: 100%; 
+}
+
+.gridcontainer_B{
+    background: ;
+    padding-left: 7.31em;
+    padding-right: 7.31em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: 20% 49% 30%;
+    grid-column-gap: 1.25em;
+}
+
+.gridcontainer_B .publicidad img{
+    width: 100%;
+}
+
+.newscard_B{
+    border-radius: 0em;
+    overflow: hidden;
+}
+
+.main-story_B{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: lavender;
+    min-height: 18.81em;
+}
+
+.contenedor_etiqu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.etiqueta_entretenimiento{
+padding: 0.5em;
+width: 12.5em;
+background: #41EAD4;
+border-radius: 3em;
+border: none;
+font-weight: bold;
+display: flex;
+justify-content: center;
+}
+
+.etiqueta_cienciatec{
+    padding: 0.5em;
+    width: 12.5em;
+    background: #FF206E;
+    border-radius: 3em;
+    border: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.etiqueta_salud{
+    padding: 0.5em;
+    width: 12.5em;
+    background: black;
+    border-radius: 3em;
+    border: none;
+    font-weight: bold;
+    color:  #41EAD4;  ;
+    display: flex;
+    justify-content: center;
+}
+
+.etiqueta_cultura{
+    padding: 0.5em;
+    width: 12.5em;
+    background: #FFD008;
+    border-radius: 3em;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.Titulo_columna{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.Subtit_columna{
+    font-size: 0.88em;
+    font-weight: medium;
+}
+
+.Hora_columna{
+    font-size: 0.75em;
+    font-weight: normal;
+}
+
+.separador{
+    border: 0.5px solid #FF206E;
+}
+
+.ultima_hora{
+    font-size: 1.25em;
+    font-weight: bold;
+    background: black;
+    color: #ffffff;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.publicidad{
+    display: flex;
+    align-items: center;
+}
+
+.gridcontainer8{
+    background:;
+    padding-left: 7.31em;
+    padding-right: 7.31em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 1.25em;
+}
+
+.descubre-tambien{
+    padding-left: 7.31em;
+    padding-right: 7.31em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 1.25em;
+}
+
+.linea_separadora{
+    display: flex;
+    
+}
+
+/*PARTE NOHEMI*/
+.card-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 7.31em ;
+    margin-right: 7.31em ;
+}
+
+.card1{
+    background-image: url(imagenes/pandemuerto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 0.3em;
+    margin: 1.25em;
+    padding: 22px;
+    overflow: hidden;
+    width: 287px;
+    height: 301px;
+    
+}
+
+.card2{
+    background-image: url(imagenes/azucar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 0.3em;
+    margin: 1.25em;
+    padding: 22px;
+    overflow: hidden;
+    width: 287px;
+    height: 301px;
+    
+}
+
+.card3{
+    background-image: url(imagenes/catrinav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 0.3em;
+    margin: 1.25em;
+    padding: 22px;
+    overflow: hidden;
+    width: 287px;
+    height: 301px;
+    
+}
+.news-picture img{
+    height: 0;
+}
+
+.news-description{
+    padding: 80px 0px 0px 3px ;
+    text-align:left;
+}
+
+.fecha-vista-5{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 0.8em;
+    padding: 0px 0px 6px 6px;
+
+}
+
+
+h2{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+
+.vistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-right: 0.8em;
+}
+
+
+.anuncio{
+    background-image: url(imagenes/AdsMaverick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 980px;
+    height: 121px;
+    margin: 50px;
+    margin-left: 230px;
+
+}
+
+/* ININICIO PARTE 9*/
+
+.gridContainerCad3{
+    padding: 2em;
+    padding-right: 6em;
+    padding-left: 7em;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 7% 29% 3% 29% 3% 29%;
+    
+}
+
+.gridCad3-1{
+    background-color: #FFD008;
+    padding:1em;
+}
+
+.itemCad3-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgCad3-1{
+    width: 90%;
+}
+
+.textcad-1{
+    font-weight: bold;
+    font-size: 0.6em;
+
+}
+
+.gridCad3-2{
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)), url(Imagenes/Tablets.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0em 0em;
+    text-align:center;
+    margin: 0em;
+}
+
+.textcad-2{
+    padding: 4.8em 0em 0em 0em;
+    margin: 0em;
+    min-height: 0em;
+    color: white;
+    font-size: 1.02em;
+}
+
+.gridCad3-3{
+    background-color: #FFD008;
+}
+
+.gridCad3-4{
+        background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)), url(Imagenes/Maya.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 0em 0em;
+        text-align:center;
+        margin: 0em;
+}
+
+.textcad-4{
+    padding: 4.8em 0em 0em 0em;
+    margin: 0em;
+    min-height: 0em;
+    color: white;
+    font-size: 1.02em;
+}
+
+.gridCad3-5{
+    background-color: #FFD008;
+}
+
+.gridCad3-6{
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)), url(Imagenes/Comida.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0em 0em;
+    text-align:center;
+    margin: 0em;
+}
+
+.textcad-6{
+    padding: 4.8em 0em 0em 0em;
+    margin: 0em;
+    min-height: 0em;
+    color: white;
+    font-size: 1.02em;
+}
+/* FIN PARTE 9*/
+
+.gridContainerLeido_mobile{
+    display: none;
+}
+
+/* FOR MOBILE PHONE */ 
+@media only screen and (max-width: 428px) {
+    /* HEAD, BARRA DE MENÚ Y BUSCARDOR PARTE DE LUIS*/ 
+
+     
+     /* INICIO NAV*/
+
+     .top1{
+        background-color: ;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 30px;
+    }
+
+     .top2{
+        padding: 12px;
+        margin: 0px;
+        background-color: black;
+         
+     }
+
+     .LOGO{
+       display: none;
+    }
+
+    .menuIcon{
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .LOGOWhite{
+        display: flex;
+    }
+
+    .perfiIcon{
+        padding-right: 15px;
+        height: 90%;
+        display: flex;
+    }
+
+    .date{
+        display: none;
+    }
+
+    .top-detail{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+        width: 100%;
+        padding: 0px;
+    }
+
+    .user-access{
+        display: none;
+    }
+
+    nav{
+       display: none;  
+    }
+    
+           
+
+    /* FIN NAV*/
+
+       
+    /* INICIO SERACH INPUT*/
+
+    
+    .searchInput{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .buttomSearch{
+        padding: 6px 10px;
+        width: 100%;
+        border: 1px  rgba(165, 165, 165, 0.692);
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: lighter;
+        font-stretch: expanded;
+        color: #bdbdbd;
+        display: flex;
+        justify-content: start;
+    }
+
+    .imgSearch{
+        padding: 0px 10px;
+    }
+
+    /* FIN SERACH INPUT*/
+
+
+    /* CARRUSSEL*/
+
+    #contentItemsCarrussel{
+        display: none
+    }
+
+     /* CARRUSSEL FIN*/
+    
+
+    /*PRIMERAS DOS NOTICIAS PARTE DE JERA*/
+
+    .gridcontainer2{
+        background: ;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        display:inline-table 
+    }
+    
+    .newscolumn{
+        padding-top: 1em;
+    }
+
+    .gridcontainer_B{
+        background: ;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        display: inline-table;
+    }
+
+    .publicidad{
+        background-size: contain;
+        width: 50%;
+        padding-bottom: 2em;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+
+    h4{
+        color: white;
+        font-size: 1.25em;
+        font-weight: normal;
+    }
+   
+    /*SEPARADOR LO MÁS LEÍDO LUIS*/
+
+    .gridContainerLeido{
+        display: none;
+    }
+
+    .gridContainerLeido_mobile{
+        background-color: white;
+        padding: 1em 0em;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        padding-left: 1em;
+        padding-right: 1em;
+        justify-content: center;
+    }
+
+    /*COLUMNA 1 DE NOTICIAS Y ADD1 JERA*/
+
+    .Titulo_columna{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    
+    .Subtit_columna{
+        font-size: 0.75em;
+        font-weight: medium;
+    }
+    
+    .Hora_columna{
+        font-size: 0.63em;
+        font-weight: normal;
+    }
+
+    .etiqueta_entretenimiento{
+        padding: 0.5em;
+        width: 11em;
+        background: #41EAD4;
+        border-radius: 3em;
+        border: none;
+        font-weight: medium;
+        display: flex;
+        justify-content: center;
+    }
+        
+    .etiqueta_cienciatec{
+        padding: 0.5em;
+        width: 11em;
+        background: #FF206E;
+        border-radius: 3em;
+        border: none;
+        font-weight: medium;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+        
+    .etiqueta_salud{
+        padding: 0.5em;
+        width: 11em;
+        background: black;
+        border-radius: 3em;
+        border: none;
+        font-weight: medium;
+        color:  #41EAD4;  ;
+        display: flex;
+        justify-content: center;
+    }
+        
+    .etiqueta_cultura{
+        padding: 0.5em;
+        width: 11em;
+        background: #FFD008;
+        border-radius: 3em;
+        border: none;
+        font-weight: medium;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info{
+        font-size: 0.88em;
+    }
+
+    /*NOTICIAS DE NOHEMI*/
+        .card-list{
+         display: flex;
+         flex-wrap: wrap;
+         margin-left: 0;
+         margin-right: 0;
+     }
+     .anuncio{
+         background-size: contain;
+         margin: 0px;
+         width: 100%;
+     }
+
+    /*SEPARADOR DESCUBRE TAMBIÉN LUIS*/
+    
+    .gridContainerDescubre{
+        display: none;
+    }
+
+
+    /*COLUMNA 2 DE NOTICIAS Y ADD2 JERA*/
+
+    .gridcontainer8{
+        background:;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        display: none;
+    }
+
+
+    /*CINTILLO AMARILLO LUIS*/
+    
+    .gridContainerCad3{
+        display: none;
+    }
+
+    /*FOOTER MON*/
+    
+    .box_footer{
+    margin: 0 auto;
+    }
+    
+
+}
