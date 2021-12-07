@@ -458,6 +458,7 @@ h6{
     grid-column-gap: 0.81em;
     margin-bottom: .5em;
     transition: 400ms ease-in all;
+    padding-right: 10px;
 }
 
 .story:hover{
@@ -629,7 +630,7 @@ justify-content: center;
 }
 
 .card1{
-    background-image: url(imagenes/pandemuerto.jpg);
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)), url(https://images-na.ssl-images-amazon.com/images/I/61EdzV5OPXS.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -643,7 +644,7 @@ justify-content: center;
 }
 
 .card2{
-    background-image: url(imagenes/azucar.jpg);
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)), url(https://www.elmueble.com/medio/2016/10/20/arbol-de-navidad-en-dorado-blanco-y-cristal_53a16d8d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -657,7 +658,7 @@ justify-content: center;
 }
 
 .card3{
-    background-image: url(imagenes/catrinav.jpg);
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)), url(https://ichef.bbci.co.uk/news/640/cpsprodpb/85C7/production/_104574243_gettyimages-182062885.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
