@@ -421,7 +421,9 @@ h6{
 .newscard_B{
     border-radius: 0em;
     overflow: hidden;
-    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(https://images.unsplash.com/photo-1521216774850-01bc1c5fe0da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(https://imagenes.milenio.com/nD5miPUiqY6TEh-I-M06zNfyZsg=/936x566/https://www.milenio.com/uploads/media/2021/12/02/la-cantante-estadunidense-andrea-miller.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 
@@ -465,8 +467,10 @@ h6{
 }
 
 .newscolumn .story .photo img{
-    width: 100%; 
-    height: 100%; 
+     height: 100%;
+     width: 100%;
+     overflow: hidden;
+     background-position: 50% 50%;
 }
 
 .gridcontainer_B{
