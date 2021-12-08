@@ -180,6 +180,9 @@ nav{
     margin: 1em 6em;
     margin-bottom: 0em;
     padding-bottom: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .etiqueta{
@@ -225,7 +228,9 @@ nav{
 }
 
 .imagenPrincipal{
-    max-width: 73em; 
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .leyendaPrincipal{
@@ -279,8 +284,10 @@ nav{
 }
 
 .newscolumn .story .photo img{
-    width: 100%; 
-    height: 100%; 
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-position: 50% 50%;
 }
 
 .etiqueta_entretenimiento{
@@ -373,13 +380,11 @@ justify-content: center;
 
 .anuncio_parrafo{
     overflow: hidden;
-    display: flex;
-    justify-content: flex-start;
-    background-image: url(https://previews.123rf.com/images/avgust01/avgust011903/avgust01190300028/124429726-summer-sale-advertisement-banner-horizontal-banner-with-realistic-glass-bottle-with-message-seashell.jpg);
+    background-image: url(https://fotos-ayvisa.s3.eu-west-3.amazonaws.com/wp-content/uploads/2021/02/10172617/anuncios-publicitarios-de-marcas-1280x500.jpg);
     background-size: cover;
-    background-position:center;
+    background-position:50% 50%;
     width: 100%;
-    height: 121px;
+    height: 100%;
 }
 
 .piede-foto{
