@@ -180,9 +180,6 @@ nav{
     margin: 1em 6em;
     margin-bottom: 0em;
     padding-bottom: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .etiqueta{
@@ -228,9 +225,7 @@ nav{
 }
 
 .imagenPrincipal{
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+    max-width: 73em; 
 }
 
 .leyendaPrincipal{
@@ -284,10 +279,8 @@ nav{
 }
 
 .newscolumn .story .photo img{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background-position: 50% 50%;
+    width: 100%; 
+    height: 100%; 
 }
 
 .etiqueta_entretenimiento{
@@ -380,11 +373,13 @@ justify-content: center;
 
 .anuncio_parrafo{
     overflow: hidden;
-    background-image: url(https://fotos-ayvisa.s3.eu-west-3.amazonaws.com/wp-content/uploads/2021/02/10172617/anuncios-publicitarios-de-marcas-1280x500.jpg);
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(https://www.mediasource.mx/hs-fs/hubfs/Anuncios%20publicitarios%20Mixtos.jpg?width=1904&name=Anuncios%20publicitarios%20Mixtos.jpg);
     background-size: cover;
-    background-position:50% 50%;
+    background-position:center;
     width: 100%;
-    height: 100%;
+    height: 121px;
 }
 
 .piede-foto{
@@ -404,7 +399,7 @@ justify-content: center;
 }
 
 .cardanuncio-vertical{
-    
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -412,15 +407,7 @@ justify-content: center;
     height: 600px;
     padding-right: 10em;
     margin-right: 8em;
-    padding-left: 5em;
    
-}
-
-#cadrNoticiaImagen{
-    width: 360px;
-    height: 305px;
-    margin: 0em 1.8em;
-    padding: 2em;
 }
 
 .compartir-noticia{
@@ -614,10 +601,6 @@ h4{
 
 /* fin footer */
 
-
-
-
-
 /* FOR MOBILE PHONE */ 
 @media only screen and (max-width: 428px) {
 
@@ -796,8 +779,7 @@ nav{
 }
 
 .cardnoticia-parte2{
-    margin: 2em;
-    padding: 2em;
+    margin: 0em;
 
 }
 
