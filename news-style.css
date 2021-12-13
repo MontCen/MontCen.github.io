@@ -449,7 +449,7 @@ h6{
 .newscard_A{
     border-radius: 0em;
     overflow: hidden;
-    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(Imagenes/Salario.jpg); 
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(https://www.altonivel.com.mx/wp-content/uploads/2021/12/salario-minimo-2022.jpg); 
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
