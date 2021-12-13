@@ -1,0 +1,408 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    padding: 0em;
+    margin: 0em;
+}
+
+.top1{
+    padding: 0em;
+    margin: 0em;
+    background-color:;
+}
+
+.top2{
+    max-height: 4em;
+    padding: 0em 0em;
+    margin: 0em 0em;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;    
+
+}
+
+.LOGO{
+    height: 80%;
+    padding: 0em 1.5em;
+    margin: ;
+}
+
+.LOGOWhite{
+    display: none;
+}
+
+.buttomSearch{
+    display: none;
+} 
+
+.perfiIcon{
+    display: none;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 0em;
+    padding-top: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+
+}
+
+.top-detail{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 3em;
+
+}
+
+.user-access{
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 0em;
+    padding: 0em 3em;
+    margin-bottom: 1em;
+
+
+}
+
+.color-bar{
+    height: auto;
+    width: 100%;
+    margin: 0%;
+}
+
+.user-access{
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 0em;
+    padding: 0em 3em;
+    margin-bottom: 1em;
+}
+
+.padding{
+    padding: 0.5em;
+}
+
+.btn-cta {
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0);
+    border-radius: 0.63em;
+    padding: 12px 16px;
+    border-width: 0.19em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+}
+
+.btn-outline {
+    box-sizing: border-box;
+    font-size: 0.8em;
+    color: rgb(255, 32, 110);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 0.19em;
+    border-style: solid;
+    border-color: rgb(255, 32, 110);
+    border-image: initial;
+    border-radius: 0.63em;
+    padding: 12px 16px;
+}
+
+.icon{
+    padding: 0em 0em;
+    
+
+}
+
+.access-detail{
+    background-color: ;
+    padding-right: 1.5em;
+    padding-left: 0.2em;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    padding: 0.8em;
+    margin: 0em;  
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0em 8em;
+}
+
+.button{
+    background-color:black;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding: 0.8em;   
+}
+
+.button-search{
+    color: white;
+    background-color: #41EAD4;
+    border: none;
+    padding: 1em;
+    border-radius: 0.4em;
+}
+/* FIN HEADER*/
+
+.formularioContenedor{
+    background-color: yellow;
+    margin: 8em 15em;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+
+.Mensaje{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.formularioOrden{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0em;
+    padding-bottom: 1em;
+}
+
+.descripcion{
+    padding-bottom: 0m;
+    margin-bottom: 0.6em;
+}
+
+#inputLeft{
+    padding-left: 0.5em;
+}
+
+#inputRight{
+    padding-right: 0.5em;
+}
+
+.inputRightBox{
+    font-size: 0.8em;
+    border: none;
+    border-radius: 0.3em;
+    font-size: 1em;
+    padding-right: 5em;
+    padding-top: 1em;
+    box-shadow: none;
+
+}
+
+.confirmarBox{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 0.3em;
+    width: 8em;
+    height: 2em;
+    font-size: 1em;
+    margin: 1em;
+    margin-left: 4em;
+}
+
+.input{
+    height: 2.8em;
+    width: 25em;
+    color: rgba(170, 170, 170, 0.726);
+    font-size: px;
+    border: none;
+    border-radius: 0.3em;
+    font-size: 1em;
+    padding-right: 0.5em;
+    box-shadow: 1px 1px 10px rgba(41, 41, 41, 0.281); 
+    margin-bottom: 0.5em;
+}
+
+.InicioContainer{
+    background-color: white;
+    margin: 0em 15em;
+    margin-top: 0em;
+    margin-bottom: 5em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+.Facebook{
+    
+}
+
+.botonFacebook{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3b5998;
+    border: none;
+    font-size: 1em;
+    padding-left: 0em;
+    color: white;
+    text-align: center;
+    line-height: 4em;
+    border-radius: 0.3em;
+    width: 18em;
+    margin: 0em 0em;
+    margin-right: 4em;
+}
+
+.FacebookImagen{
+    max-width: 12%;
+    padding: 1em 0em;
+    padding-left: 0em;
+    padding-right: 0.8em;
+}
+
+.botonGmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #d6492f;
+    border: none;
+    font-size: 1em;
+    padding-left: 0em;
+    color: white;
+    text-align: center;
+    line-height: 4em;
+    border-radius: 0.3em;
+    width: 18em;
+    margin-right: 0em;
+
+}
+
+.GmailImagen{
+    max-width: 12%;
+    padding: 1em 0em;
+    padding-left: 0em;
+    padding-right: 0.8em;
+
+}
+
+
+
+
+
+
+/* FOR MOBILE PHONE */ 
+@media only screen and (max-width: 428px) {
+
+/* INICIO NAV*/
+
+.top1{
+    background-color: ;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+ .top2{
+    padding: 12px;
+    margin: 0px;
+    background-color: black;
+     
+ }
+
+ .LOGO{
+   display: none;
+}
+
+.menuIcon{
+    display: flex;
+    padding-left: 15px;
+}
+
+.LOGOWhite{
+    display: flex;
+}
+
+.perfiIcon{
+    padding-right: 15px;
+    height: 90%;
+    display: flex;
+}
+
+.date{
+    display: none;
+}
+
+.top-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 100%;
+    padding: 0px;
+}
+
+.user-access{
+    display: none;
+}
+
+nav{
+   display: none;  
+}
+
+       
+
+/* FIN NAV*/
+
+   
+/* INICIO SERACH INPUT*/
+
+
+.searchInput{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.buttomSearch{
+    padding: 6px 10px;
+    width: 100%;
+    border: 1px  rgba(165, 165, 165, 0.692);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-stretch: expanded;
+    color: #bdbdbd;
+    display: flex;
+    justify-content: start;
+}
+
+.imgSearch{
+    padding: 0px 10px;
+}
+
+/* FIN SERACH INPUT*/
+
+
+
+}
