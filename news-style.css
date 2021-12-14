@@ -251,14 +251,12 @@ h6{
     border-color: rgb(0, 0, 0);
     border-image: initial;
     transition-property: background, border-color, color;
-    transition-timing-function: ease 2seg;
 }
 
 .btn-cta:hover{
     background: rgb(16, 241, 185);
     border-color: rgb(82, 252, 209);
     color: black;
-
 }
 
 .btn-outline {
