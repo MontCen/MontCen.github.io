@@ -5,6 +5,22 @@ body{
     margin: 0em;
 }
 
+button{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration-color: white;
+}
+
+#buttonRegistrar{
+    text-decoration: none;
+    color:  rgb(255, 32, 110);
+}
+
 .top1{
     padding: 0em;
     margin: 0em;
@@ -27,6 +43,7 @@ body{
     height: 80%;
     padding: 0em 1.5em;
     margin: ;
+    
 }
 
 .LOGOWhite{
@@ -103,7 +120,7 @@ nav{
     font-family: 'Manrope', sans-serif;
     color: white;
     font-size: 17px;
-    padding: 0.8em;   
+    padding: 0.8em; 
 }
 
 .button-search{
@@ -139,6 +156,7 @@ nav{
 .etiqueta{
     padding: 0.5em;
     background-color: #FFD008;
+    color: black;
     border: none;
     border-radius: 3em;
     font-weight: bold;
@@ -340,6 +358,7 @@ h6{
     background-color: white;
     text-align: center;
     font-size: 2em;
+    line-height: 0.5em;
 
 }
 
@@ -427,10 +446,20 @@ h6{
 }
 
 
-.newscard{
+.newscard_A{
+    border-radius: 0em;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(https://www.altonivel.com.mx/wp-content/uploads/2021/12/salario-minimo-2022.jpg); 
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.newscard_C{
     border-radius: 0em;
     overflow: hidden;
     background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(Imagenes/Salario.jpg); 
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
    
 .main-story{
@@ -439,6 +468,7 @@ h6{
     justify-content: flex-start;
     min-height: 18.81em;
 }
+
 
 .texto{
     display: flex;
@@ -515,6 +545,7 @@ h6{
 padding: 0.5em;
 width: 12.5em;
 background: #41EAD4;
+color: black;
 border-radius: 3em;
 border: none;
 font-weight: bold;
@@ -550,6 +581,7 @@ justify-content: center;
     padding: 0.5em;
     width: 12.5em;
     background: #FFD008;
+    color: black;
     border-radius: 3em;
     border: none;
     font-weight: bold;
@@ -564,16 +596,19 @@ justify-content: center;
 .Titulo_columna{
     font-size: 1.25em;
     font-weight: bold;
+    color: black;
 }
 
 .Subtit_columna{
     font-size: 0.88em;
     font-weight: medium;
+    color: black;
 }
 
 .Hora_columna{
     font-size: 0.75em;
     font-weight: normal;
+    color: black;
 }
 
 .separador{
