@@ -1,0 +1,927 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    padding: 0em;
+    margin: 0em;
+}
+
+p{
+    text-align: ;
+    line-height: 1.9em;
+    
+}
+
+.top1{
+    padding: 0em;
+    margin: 0em;
+    background-color:;
+}
+
+.top2{
+    max-height: 4em;
+    padding: 0em 0em;
+    margin: 0em 0em;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;    
+
+}
+
+.LOGO{
+    height: 80%;
+    padding: 0em 1.5em;
+    margin: ;
+}
+
+.LOGOWhite{
+    display: none;
+}
+
+.buttomSearch{
+    display: none;
+} 
+
+.perfiIcon{
+    display: none;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 0em;
+    padding-top: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+
+}
+
+.top-detail{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 3em;
+
+}
+
+.user-access{
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 0em;
+    padding: 0em 3em;
+    margin-bottom: 1em;
+
+
+}
+
+.color-bar{
+    height: auto;
+    width: 100%;
+    margin: 0%;
+}
+
+.user-access{
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 0em;
+    padding: 0em 3em;
+    margin-bottom: 1em;
+}
+
+.padding{
+    padding: 0.5em;
+}
+
+.btn-cta {
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0);
+    border-radius: 0.63em;
+    padding: 12px 16px;
+    border-width: 0.19em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+}
+
+.btn-outline {
+    box-sizing: border-box;
+    font-size: 0.8em;
+    color: rgb(255, 32, 110);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 0.19em;
+    border-style: solid;
+    border-color: rgb(255, 32, 110);
+    border-image: initial;
+    border-radius: 0.63em;
+    padding: 12px 16px;
+}
+
+.icon{
+    padding: 0em 0em;
+    
+
+}
+
+.access-detail{
+    background-color: ;
+    padding-right: 1.5em;
+    padding-left: 0.2em;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    padding: 0.8em;
+    margin: 0em;  
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0em 8em;
+}
+
+.button{
+    background-color:black;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding: 0.8em;   
+}
+
+.button-search{
+    color: white;
+    background-color: #41EAD4;
+    border: none;
+    padding: 1em;
+    border-radius: 0.4em;
+}
+
+.containerPrincipal{
+    padding: 1em;
+    margin: 1em 6em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+.etiqueta{
+    padding: 0.5em;
+    background-color: black;
+    color: #41EAD4;
+    border: none;
+    border-radius: 3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    background: black;
+}
+
+.TituloPrincipal{
+    font-size: 2.9375rem;
+    padding: 0em;
+    margin: 0.3em 0em;
+    margin-bottom: 0em;
+    text-align: left;
+}
+
+.TituloPrincipal2{
+    font-size: 2.9375rem;
+    padding: 0em;
+    margin: 0em 0em;
+    text-align: left;
+}
+
+.TituloDetalle{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 0em;
+}
+
+.TituloDetalle2{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 0em;
+}
+
+.imagenPrincipal{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.leyendaPrincipal{
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-bottom: 0em;
+    font-style: italic;
+}
+
+.leyendaPrincipal2{
+    font-size: 0.8em;
+    font-weight: 600;
+   margin-top: 0em;
+}
+
+/*ESTILOS PARTE JERA*/
+
+.noticia_container{
+    padding-left: 6.2em;
+    padding-right: 7.31em;
+    padding-top: 0em;
+    padding-bottom: 3em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1.25em;
+}
+
+
+.texto_noticia{
+     display: flex;
+     flex-direction: column;
+     margin: 0em 0.7em;
+}
+
+
+.story{
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 0.63em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 0.81em;
+    margin-bottom: .5em;
+    transition: 400ms ease-in all;
+}
+
+.story:hover{
+    background: rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-8px) scale(1.02);
+}
+
+.newscolumn .story .photo img{
+    width: 100%; 
+    height: 100%; 
+}
+
+.etiqueta_entretenimiento{
+padding: 0.5em;
+width: 12.5em;
+background: #41EAD4;
+border-radius: 3em;
+border: none;
+font-weight: bold;
+display: flex;
+justify-content: center;
+}
+
+.etiqueta_cienciatec{
+    padding: 0.5em;
+    width: 12.5em;
+    background: #FF206E;
+    border-radius: 3em;
+    border: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.etiqueta_salud{
+    padding: 0.5em;
+    width: 12.5em;
+    background: black;
+    border-radius: 3em;
+    border: none;
+    font-weight: bold;
+    color:  #41EAD4;  ;
+    display: flex;
+    justify-content: center;
+}
+
+.etiqueta_cultura{
+    padding: 0.5em;
+    width: 12.5em;
+    background: #FFD008;
+    border-radius: 3em;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.Titulo_columna{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.Subtit_columna{
+    font-size: 0.88em;
+    font-weight: medium;
+}
+
+.Hora_columna{
+    font-size: 0.75em;
+    font-weight: normal;
+}
+
+.separador{
+    border: 0.5px solid #FF206E;
+}
+
+.ultima_hora{
+    font-size: 1.25em;
+    font-weight: bold;
+    background: black;
+    color: #ffffff;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.descubre-tambien{
+    padding-left: 7.31em;
+    padding-right: 7.31em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 1.25em;
+}
+
+.anuncio_parrafo{
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(https://kinsta.com/es/wp-content/uploads/sites/8/2020/05/ejemplo-anuncio-publicitario-mcdonalds.png);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 121px;
+}
+
+.piede-foto{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1.25em;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.pieFoto{
+    
+}
+
+.card-notianuncio{
+    display: flex;
+    justify-content: right;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    margin-left: 7em;
+}
+
+.descripcion-noticia{
+    margin-right: 2.31em;
+}
+
+.cardanuncio-vertical{
+    background-image: url(https://blog.hubspot.es/hubfs/media/estrategiasdepublicidadwhiskas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.compartir-noticia{
+    display:flex;
+    margin-left: 7em;
+
+}
+.icono-redes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5em;
+    padding: 1.2em;
+    justify-content: center;
+}
+
+.Tambien-interes{
+   display:flex;
+   margin-top: 2em;
+}
+
+h1{
+    text-align:left;
+    margin-left: 3.4em;
+}
+
+.cintillonegro{
+    margin-top: 2.4em;
+    margin-left: 2em;
+    justify-content: center;
+    background-color:black;
+    width: 48em;
+    height: 1em;
+}
+
+.card-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 7.31em;
+    margin-right: 7.31em;
+}
+
+.card1{
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.445)),url(https://i0.wp.com/www.agendamusical.cl/wp-content/uploads/2021/03/palnorte-e1582578741721.jpg?fit=1060%2C519&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 0.3em;
+    margin: 1.25em;
+    padding: 22px;
+    overflow: hidden;
+    width: 287px;
+    height: 301px;
+    
+}
+
+.card2{
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.555)),url(https://img.chilango.com/2019/09/2019-10-01-Mucho-Mx9-1000x539.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 0.3em;
+    margin: 1.25em;
+    padding: 22px;
+    overflow: hidden;
+    width: 287px;
+    height: 301px;
+    
+}
+
+.card3{
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.541)),url(imagenes/catrinav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 0.3em;
+    margin: 1.25em;
+    padding: 22px;
+    overflow: hidden;
+    width: 287px;
+    height: 301px;
+}
+
+.news-picture img{
+    height: 0;
+}
+
+.news-description{
+    padding: 80px 0px 0px 3px ;
+    text-align:left;
+}
+
+.fecha-vista-5{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 0.8em;
+    padding: 0px 0px 6px 6px;
+}
+
+.etiqueta{
+    padding: 0.5em;
+    background-color: black;
+    border: none;
+    border-radius: 3em;
+    font-weight: bold;
+
+}
+
+h2{
+    color: black;
+}
+
+#h2news{
+    color: white;
+}
+h4{
+    color: white;
+}
+
+.vistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-right: 0.8em;
+}
+
+.eye{
+    padding-right: 0.2em;
+    height: 0.8em;
+}
+
+/* inicio footer */
+.footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: black;
+}    
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 100px;
+    background-color: black;
+    
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box_footer.logo img{
+    width: 90px;
+}
+
+.box_footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    color:#ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.box_footer a{
+    margin-top: 10px;
+    color:#ffffff;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+
+.box_footer a:hover{
+    color: #FFD008;
+    padding-left: 8px;
+}
+
+.box_footer a .fab{
+    font-size: 16px;
+}
+
+.cardnoticia-parte2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1.25em;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+#cadrNoticiaImagen{
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+}
+
+
+/* fin footer */
+
+/* FOR MOBILE PHONE */ 
+@media only screen and (max-width: 428px) {
+
+/* INICIO NAV*/
+
+.top1{
+    background-color: ;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+ .top2{
+    padding: 12px;
+    margin: 0px;
+    background-color: black;
+     
+ }
+
+ .LOGO{
+   display: none;
+}
+
+.menuIcon{
+    display: flex;
+    padding-left: 15px;
+}
+
+.LOGOWhite{
+    display: flex;
+}
+
+.perfiIcon{
+    padding-right: 15px;
+    height: 90%;
+    display: flex;
+}
+
+.date{
+    display: none;
+}
+
+.top-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 100%;
+    padding: 0px;
+}
+
+.user-access{
+    display: none;
+}
+
+nav{
+   display: none;  
+}
+
+       
+
+/* FIN NAV*/
+
+   
+/* INICIO SERACH INPUT*/
+
+
+.searchInput{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.buttomSearch{
+    padding: 6px 10px;
+    width: 100%;
+    border: 1px  rgba(165, 165, 165, 0.692);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-stretch: expanded;
+    color: #bdbdbd;
+    display: flex;
+    justify-content: start;
+}
+
+.imgSearch{
+    padding: 0px 10px;
+}
+   
+
+/* FIN SERACH INPUT*/
+
+/* Noticia Principal */
+
+.containerPrincipal{
+    padding: 0.5em;
+    margin: 1em 1em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+.etiqueta{
+    padding: 0.8em;
+    background-color: #FFD008;
+    border: none;
+    border-radius: 3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+}
+
+.TituloPrincipal{
+    font-size: 1.8em;
+    padding: 0em;
+    margin: 0.3em 0em;
+    margin-bottom: 0em;
+    text-align: left;
+}
+
+.TituloPrincipal2{
+    font-size: 1.8em;
+    padding: 0em;
+    margin: 0.3em 0em;
+    margin-top: 0em;
+    text-align: left;
+}
+
+.TituloDetalle{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    margin-top: 0.8em;
+}
+
+.TituloDetalle2{
+    display: none;
+}
+
+.imagenPrincipal{
+    max-width: 24em; 
+    height: 33%;
+}
+
+.leyendaPrincipal{
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 0em;
+    font-style: italic;
+}
+
+.leyendaPrincipal2{
+    font-size: 0.9em;
+    font-weight: 600;
+   margin-top: 0em;
+   margin-bottom: 0em;
+}
+
+/*PARTE JERA*/
+
+.noticia_container{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    display: inline-table;
+    padding-top: 0em;
+    margin: 0em 0em;
+    text-align: justify;
+}
+
+.card-notianuncio{
+    margin: 0em 0.6em;
+    width: 3em;
+    display: inline-table;
+}
+
+.cardnoticia-parte2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1.25em;
+    margin-left: 7em;
+}
+
+#cadrNoticiaImagen{
+    width: 50%;
+    height: 50%;
+    margin: 0em 1.8em;
+}
+
+.foto-noticia{
+    width: 333px;
+}
+
+.giganteimg{
+    width: 30em;
+}
+
+.pieDeFoto{
+    padding: 0em 0em;
+    display: inline-table;
+    text-align: center;
+    padding-right: 32rem;
+    padding-left: 2rem;
+    margin-top: 1em;
+}
+
+.pieFoto{
+    margin: 0em 4em;
+    font-size: 0.8em;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.DescripcionNoticia{
+    padding-right: 0rem;
+    margin: 0em 0em;
+    text-align: justify;
+    font-size: 0.3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.NoticiaText{
+    margin: 0em 1.5em;
+    text-align: justify;
+}
+
+.card-notianuncio{
+    margin: 0em 0em;
+    width: 26.75em;
+    padding: 0em;
+}
+
+.descripcion-noticia{
+    margin-right: 0em;
+}
+
+.DescripcionNoticia{
+    padding: 0em;
+    margin: 0em;
+    display: inline-table;
+    padding-right: 0em;
+
+    
+}
+
+.CardAnuncio{
+    margin: 0em 0.6em;
+    width: 26em;
+    margin: 0em;
+    padding: 0em;
+}
+
+.compartir-noticia{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0em;
+}
+
+.cardanuncio-vertical{
+    background-image: url(imagenes/catrinav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 320px;
+    height: 50px;
+    padding-right: 0em;
+    margin-right: 0em;
+    margin: 0em 3em;
+}
+
+.Tambien-interes{
+    margin-right: 0em;
+}
+
+#TambienInteres{
+    font-size: 1.5em;
+    margin-left: 2em;
+    
+    
+}
+
+.cintillonegro{
+    padding-right: 0em;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+}
