@@ -475,7 +475,7 @@ h6{
 .newscard_C{
     border-radius: 0em;
     overflow: hidden;
-    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(Imagenes/Salario.jpg); 
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(1, 0, 0, 0.742)),url(https://www.jornada.com.mx/ultimas/2021/12/14/el-museo-tamayo-reinicia-actividades-y-festeja-40-anos-con-mas-alla-de-los-arboles-1806.html/tamayo.jpg-3226.html/image_large?bc=2021-12-14T10:14:35-06:00); 
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
