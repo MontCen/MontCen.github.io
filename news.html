@@ -46,7 +46,7 @@ mixpanel.track('Sign up');
                     <button class="btn-cta" onclick="mixpanel.track('log in');"><a href="#">INICIAR SESION</a></button>
                 </div>
                 <div class="padding">
-                    <button class="btn-outline"> <a id="buttonRegistrar" href="#">REGISTRATE</a></button>
+                    <button class="btn-outline" onclick="mixpanel.track(' sign in');"> <a id="buttonRegistrar" href="#">REGISTRATE</a></button>
                 </div>
             </div>
 
@@ -54,10 +54,10 @@ mixpanel.track('Sign up');
         <nav>
             <div class="menu">
                 <button class="button" onclick="mixpanel.track('entretenimiento clic');"><a href="https://montcen.github.io/news.html">ENTRETENIMIENTO</a></button>
-                <button class="button"><a href="https://montcen.github.io/news.html">SALUD</a></button>
-                <button class="button"><a href="https://montcen.github.io/news.html">CIENCIA Y TECNOLOGÍA</a></button>
-                <button class="button"><a href="https://montcen.github.io/news.html">CULTURA</a></button>
-                <button class="button"><a href="https://montcen.github.io/news.html">LO MÁS LEÍDO</a></button>
+                <button class="button" onclick="mixpanel.track('salud clic');"><a href="https://montcen.github.io/news.html">SALUD</a></button>
+                <button class="button" onclick="mixpanel.track('ciencia y tec clic');"><a href="https://montcen.github.io/news.html">CIENCIA Y TECNOLOGÍA</a></button>
+                <button class="button" onclick="mixpanel.track('cultura clic');"><a href="https://montcen.github.io/news.html">CULTURA</a></button>
+                <button class="button" onclick="mixpanel.track('lo mas leido clic');"><a href="https://montcen.github.io/news.html">LO MÁS LEÍDO</a></button>
                 <button class="button-search">
                     <a href="#"><img src="Imagenes/icon/search.png" alt=""></a>
                     
@@ -77,7 +77,7 @@ mixpanel.track('Sign up');
                 </div>
             
 
-         <!-- INICIO SEARCH BUTTOM - MOBILE-->
+         <!-- FIN SEARCH BUTTOM - MOBILE-->
         
 
         <!-- INICIO CARUSSEL-->
@@ -86,65 +86,20 @@ mixpanel.track('Sign up');
 
             <div class="itemCarussel" id="itemCarussel-1">
                 <div class="tarjetaCarussel" id="tarjetaCarussel-1">
+                    <a href="#" onclick="mixpanel.track('carussel clic');">
                     <img class="imagenCarrussel" src="Imagenes/imagen1.jpg" alt="item-1-Carrussel">
-                    <button>Leer más...</button>
-                </div>
-                <div class="flechasCarussel">
-                    <a href="#itemCarussel-3">
-                        <i>
-                            <img class="arrow" src="Imagenes/icon/left-arrow.png" alt="left-arrow">
-                        </i>
-                    </a>
-                    <a href="#itemCarussel-2">
-                        <i>
-                            <img class="arrow" src="imagenes/icon/right-arrow.png" alt="right-arrow">
-                        </i>
                     </a>
                 </div>
+                
             </div>  
-            
-            <div class="itemCarussel" id="itemCarussel-2">
-                <div class="tarjetaCarussel" id="tarjetaCarussel-2">    
-                    <img class="imagenCarrussel" src="imagenes/imagen2.jpg" alt="">
-                </div>
-                <div class="flechasCarussel">
-                    <a href="#itemCarussel-1">
-                        <i>
-                            <img class="arrow" src="Imagenes/icon/left-arrow.png" alt="left-arrow">
-                        </i>
-                    </a>
-                    <a href="#itemCarussel-3">
-                        <i>
-                            <img class="arrow" src="imagenes/icon/right-arrow.png" alt="right-arrow">
-                        </i>
-                    </a>
-                </div>
-            </div>
 
-            <div class="itemCarussel" id="itemCarussel-3">
-                <div class="tarjetaCarussel" id="tarjetaCarussel-3">
-                    <img class="imagenCarrussel" src="imagenes/imagen3.jpg" alt="">
-                </div>
-                <div class="flechasCarussel">
-                    <a href="#itemCarussel-2">
-                        <i>
-                            <img class="arrow" src="Imagenes/icon/left-arrow.png" alt="left-arrow">
-                        </i>
-                    </a>
-                    <a href="#itemCarussel-1">
-                        <i>
-                            <img class="arrow" src="imagenes/icon/right-arrow.png" alt="right-arrow">
-                        </i>
-                    </a>
-                </div>
-            </div>
 
         </div>
 
         <!-- FIN CARUSSEL-->
          <!--PARTE 3A DE LA PÁGINA--> 
         <div class="gridcontainer2">
-            <div class="newscard_A main-story">
+            <div class="newscard_A main-story" onclick="mixpanel.track('cad 1 top');">
                     <div class="contenedor_etiqu">
                         <button class="etiqueta">CULTURA</button>
                     </div>
@@ -168,7 +123,7 @@ mixpanel.track('Sign up');
                         <img src="Imagenes/Expo.jpg" alt="">
                     </div>
                     </a>
-                    <a href="#">
+                    <a href="#" onclick="mixpanel.track('entretenimiento cad 2 top');">
                     <div class="info">
                         <button class="etiqueta_entretenimiento">ENTRETENIMIENTO</button>
                         <p class="Titulo_columna">Expone artista plástica mexicana</p>
@@ -179,7 +134,7 @@ mixpanel.track('Sign up');
                 </div>
                 <hr class="separador">
                 <div class="newscard story">
-                        <a href="#">
+                        <a href="#" onclick="mixpanel.track('ciencia cad 2 top');">
                         <div class="photo">
                             <img src="Imagenes/Agricultura.jpg" alt="">
                         </div>
@@ -195,7 +150,7 @@ mixpanel.track('Sign up');
                 </div>
                 <hr class="separador">
                 <div class="newscard story">
-                    <a href="">
+                    <a href="" onclick="mixpanel.track('salud cad 2 top');">
                     <div class="photo">
                         <img src="Imagenes/Leche.jpg" alt="">
                     </div>
@@ -211,7 +166,7 @@ mixpanel.track('Sign up');
                 </div>
                 <hr class="separador">
                 <div class="newscard story">
-                    <a href="">
+                    <a href="" onclick="mixpanel.track('cultura cad 2 top');">
                     <div class="photo">
                         <img src="Imagenes/Navidad.jpg" alt="">
                     </div>
